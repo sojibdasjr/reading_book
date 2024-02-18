@@ -1,9 +1,15 @@
-import "./App.css";
+import BooksContents from "./components/BooksContents/BooksContents";
+import BooksMarks from "./components/BooksMarks/BooksMarks";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <Header></Header>
+      <div>
+        <BooksContents />
+        <BooksMarks />
+      </div>
     </>
   );
 }

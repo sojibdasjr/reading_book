@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "cover": "https://i.ibb.co/MGXHFpd/growtika-FQ3l-FA4-Zi58-unsplash.jpg",
+    "title": "Mastering Python: Advanced Techniques",
+    "author": "Alex Smith",
+    "author_Img": "https://i.ibb.co/Sny3XWG/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg",
+    "posted_date": "2023-07-12",
+    "reading_time": "45 mins",
+    "hashtags": ["Python", "Programming", "Advanced"],
+    "content_type": "Programming",
+    "content": "In this comprehensive guide, we delve deep into advanced Python techniques, including metaprogramming, asynchronous programming with asyncio, and optimizing performance."
+  },
+  {
+    "Id": 2,
+    "cover": "https://i.ibb.co/JzcW043/close-up-image-programer-working-his-desk-office.jpg",
+    "title": "JavaScript Ninja: Mastering ES10",
+    "author": "Emily Johnson",
+    "author_Img": "https://i.ibb.co/bsnVLx6/young-happy-female-student-glasses-smiling-joyful.jpg",
+    "posted_date": "2023-09-28",
+    "reading_time": "60 mins",
+    "hashtags": ["JavaScript", "ES10", "WebDevelopment"],
+    "content_type": "Programming",
+    "content": "Unleash the full power of JavaScript with this guide to mastering ES10 features, including destructuring, BigInt, dynamic imports, and much more."
+  },
+  {
+    "Id": 3,
+    "cover": "https://i.ibb.co/DK4LTX5/composition-with-html-system-websites-2.jpg",
+    "title": "Data Science Essentials: From Basics to Machine Learning",
+    "author": "Michael Lee",
+    "author_Img": "https://i.ibb.co/g4F9Lnp/dark-haired-woman-knitted-sweater-looks-up-thoughtfully-lady-thinks-what-write-new-book.jpg",
+    "posted_date": "2023-11-15",
+    "reading_time": "55 mins",
+    "hashtags": ["DataScience", "MachineLearning", "Python"],
+    "content_type": "Programming",
+    "content": "Embark on your journey into data science with this essential guide. Learn data manipulation, visualization, statistical analysis, and dive into machine learning algorithms."
+  },
+  {
+    "Id": 4,
+    "cover": "https://i.ibb.co/bsnVLx6/young-happy-female-student-glasses-smiling-joyful.jpg",
+    "title": "Java Fundamentals: The Complete Guide",
+    "author": "David Miller",
+    "author_Img": "https://i.ibb.co/xDc7HBP/close-up-handsome-male-entrepreneur-suit-looking-left-smiling-standing-against-white-background.jpg",
+    "posted_date": "2023-12-03",
+    "reading_time": "50 mins",
+    "hashtags": ["Java", "Programming", "Fundamentals"],
+    "content_type": "Programming",
+    "content": "From basic syntax to advanced concepts, this guide covers everything you need to know to become proficient in Java programming, including object-oriented principles and JavaFX."
+  },
+  {
+    "Id": 5,
+    "cover": "https://i.ibb.co/Sc6PYT2/html-system-website-concept.jpg",
+    "title": "C++ Programming: Modern Techniques",
+    "author": "Sophia Chen",
+    "author_Img": "https://i.ibb.co/bdwnbyT/serious-young-male-student-wearing-headphones-around-neck-writing-with-pen-note-book-isolated-purple.jpg",
+    "posted_date": "2024-01-20",
+    "reading_time": "65 mins",
+    "hashtags": ["C++", "Programming", "Modern"],
+    "content_type": "Programming",
+    "content": "Discover the modern features and techniques of C++ programming, including smart pointers, lambda expressions, and multithreading, and elevate your coding skills to the next level."
+  },
+  {
+    "Id": 6,
+    "cover": "https://i.ibb.co/sHYFz99/html-system-website-concept-1.jpg",
+    "title": "Web Development Crash Course: HTML, CSS, and JavaScript",
+    "author": "Daniel Brown",
+    "author_Img": "https://i.ibb.co/Sny3XWG/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg",
+    "posted_date": "2024-02-05",
+    "reading_time": "40 mins",
+    "hashtags": ["WebDevelopment", "HTML", "CSS", "JavaScript"],
+    "content_type": "Programming",
+    "content": "Jumpstart your journey into web development with this crash course covering HTML, CSS, and JavaScript fundamentals. Build your first website and understand the essentials of front-end development."
+  },
+  {
+    "Id": 7,
+    "cover": "https://i.ibb.co/30gFyWv/rear-view-programmer-working-all-night-long.jpg",
+    "title": "Python Data Analysis: Pandas and NumPy Essentials",
+    "author": "Jessica Adams",
+    "author_Img": "https://i.ibb.co/bdwnbyT/serious-young-male-student-wearing-headphones-around-neck-writing-with-pen-note-book-isolated-purple.jpg",
+    "posted_date": "2024-02-10",
+    "reading_time": "55 mins",
+    "hashtags": ["Python", "DataAnalysis", "Pandas", "NumPy"],
+    "content_type": "Programming",
+    "content": "Unlock the power of Python for data analysis with this guide focusing on Pandas and NumPy essentials. Learn to manipulate, clean, and analyze data efficiently using these powerful libraries."
+  },
+  {
+    "Id": 8,
+    "cover": "https://i.ibb.co/z7F2m00/michael-dziedzic-q-DG7-XKJLKbs-unsplash.jpg",
+    "title": "React.js Essentials: Building Interactive User Interfaces",
+    "author": "William Garcia",
+    "author_Img": "https://i.ibb.co/rsGJjVy/person-front-computer-working-html.jpg",
+    "posted_date": "2024-02-15",
+    "reading_time": "50 mins",
+    "hashtags": ["ReactJS", "JavaScript", "WebDevelopment"],
+    "content_type": "Programming",
+    "content": "Get started with React.js and learn to build interactive user interfaces with ease. Dive into React components, state management, and understand the principles behind building modern web applications."
+  },
+  {
+    "Id": 9,
+    "cover": "https://i.ibb.co/PTqYpvx/html-css-collage-concept-with-person-1.jpg",
+    "title": "Machine Learning with TensorFlow: From Theory to Practice",
+    "author": "Sophie Rodriguez",
+    "author_Img": "https://i.ibb.co/g4F9Lnp/dark-haired-woman-knitted-sweater-looks-up-thoughtfully-lady-thinks-what-write-new-book.jpg",
+    "posted_date": "2024-02-17",
+    "reading_time": "60 mins",
+    "hashtags": ["MachineLearning", "TensorFlow", "Python"],
+    "content_type": "Programming",
+    "content": "Delve into the world of machine learning with TensorFlow. This guide covers the theory behind machine learning algorithms and provides hands-on examples to implement them using TensorFlow."
+  },
+  {
+    "Id": 10,
+    "cover": "https://i.ibb.co/FXk8JwF/html-css-collage-concept-with-person.jpg",
+    "title": "Blockchain Development: Building Decentralized Applications",
+    "author": "Jack Thompson",
+    "author_Img": "https://i.ibb.co/bdwnbyT/serious-young-male-student-wearing-headphones-around-neck-writing-with-pen-note-book-isolated-purple.jpg",
+    "posted_date": "2024-02-18",
+    "reading_time": "55 mins",
+    "hashtags": ["Blockchain", "Ethereum", "SmartContracts"],
+    "content_type": "Programming",
+    "content": "Explore the world of blockchain development and learn to build decentralized applications using Ethereum. Dive into smart contracts, blockchain networks, and understand the future of decentralized technologies."
+  }
+]
