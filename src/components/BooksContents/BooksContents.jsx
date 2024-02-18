@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SingleContents from "../SingleContainer/SingleContents";
 
-const BooksContents = () => {
+const BooksContents = ({ handleBookMark, handleAddToBooksmarks }) => {
   const [booksContenst, setBooksContents] = useState([]);
   useEffect(() => {
     fetch("reading.json")
@@ -11,7 +11,12 @@ const BooksContents = () => {
   return (
     <div className="md: w-2/3">
       {booksContenst.map((book) => (
-        <SingleContents singleBook={book} key={book.Id}></SingleContents>
+        <SingleContents
+          handleAddToBooksmarks={handleAddToBooksmarks}
+          handleBookMark={handleBookMark}
+          singleBook={book}
+          key={book.Id}
+        ></SingleContents>
       ))}
     </div>
   );

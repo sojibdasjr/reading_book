@@ -1,9 +1,14 @@
 import { useState } from "react";
 import { FaRegBookmark } from "react-icons/fa6";
 
-const SingleContents = ({ singleBook }) => {
+const SingleContents = ({
+  singleBook,
+  handleBookMark,
+  handleAddToBooksmarks,
+}) => {
   const [details, setDetails] = useState(false);
   const {
+    Id,
     title,
     cover,
     author_Img,
@@ -35,7 +40,7 @@ const SingleContents = ({ singleBook }) => {
           </div>
           <div className="flex items-center gap-1">
             <h1>{reading_time} mins read</h1>
-            <button>
+            <button onClick={() => handleBookMark(singleBook)}>
               <FaRegBookmark />
             </button>
           </div>
@@ -50,7 +55,13 @@ const SingleContents = ({ singleBook }) => {
         </span>
       ))}{" "}
       <br />
-      <button className="text-blue-600 underline">Marks as Read</button> <br />
+      <button
+        onClick={() => handleAddToBooksmarks(Id, reading_time)}
+        className="text-blue-600 underline"
+      >
+        Marks as Read
+      </button>{" "}
+      <br />
       <button
         onClick={handleClickDetails}
         className="my-2 bg-yellow-300 p-1 rounded-md"
