@@ -5,10 +5,12 @@ import Header from "./components/Header/Header";
 function App() {
   return (
     <>
-      <Header></Header>
       <div>
-        <BooksContents />
-        <BooksMarks />
+        <Header></Header>
+        <div className="md:flex gap-6 max-w-7xl mx-auto">
+          <BooksContents />
+          <BooksMarks />
+        </div>
       </div>
     </>
   );
